@@ -1,0 +1,2 @@
+[01:57:09]: {"message":"NEW REQUEST: (/ping) | IP: ::1 | METHOD: GET","data":{}}
+[01:58:15]: {"message":"NEW REQUEST: (/api-generator/v1/testUpload) | IP: ::1 | METHOD: POST","data":{}}
