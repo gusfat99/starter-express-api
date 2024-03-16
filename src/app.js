@@ -10,7 +10,7 @@ const app = express();
 const mdl = require("./core/middleware");
 const port = process.env.PORT || 8010;
 const router = require("./routes");
-const log = require("./configs/logger");
+// const log = require("./configs/logger");
 
 function App() {
    app.listen(port, async () => {
@@ -36,7 +36,7 @@ function App() {
 
       global.APP_PATH = __dirname;
 
-      log.debug(`Server is running on port: ${port}`);
+      // log.debug(`Server is running on port: ${port}`);
       console.log(`Server is running on port: ${port}`)
    });
 }
