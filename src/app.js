@@ -21,7 +21,7 @@ function App() {
       }
       app.use(cors(corsOption));
 
-      app.use(mdl.writeReq);
+      // app.use(mdl.writeReq);
       app.disable("x-powered-by");
 
       app.use(parser.json());
